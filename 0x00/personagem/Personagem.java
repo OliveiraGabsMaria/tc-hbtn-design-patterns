@@ -20,7 +20,7 @@ public abstract class Personagem {
         this.destreza = destreza;
     }
 
-    abstract double getDanoAtaque();
+    public abstract double getDanoAtaque();
 
     public String getNome() {
         return nome;
