@@ -1,4 +1,4 @@
-public class LadraoBuilder  implements Builder{
+public class LadraoBuilder implements Builder {
     private String nome;
     private TipoPersonagem tipo;
     private int inteligencia;
