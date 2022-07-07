@@ -24,13 +24,13 @@ public class Pedido {
 
     @Override
     public String toString() {
-        String foraDaCaixa = "\tFora da caixa:\n";
+        String foraDaCaixa = "\tFora da Caixa:\n";
 
         for (ItemPedido item : itensForaCaixa){
             foraDaCaixa += String.format("\t\t- %s %s\n", item.getTipo(), item.getNome());
         }
 
-        String dentroDaCaixa = "\tDentro da caixa:\n";
+        String dentroDaCaixa = "\tDentro da Caixa:\n";
 
         for (ItemPedido item : itensDentroCaixa){
             dentroDaCaixa += String.format("\t\t- %s %s\n", item.getTipo(), item.getNome());
