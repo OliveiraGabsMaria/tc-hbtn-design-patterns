@@ -1,6 +1,6 @@
 import java.util.List;
 
-public abstract  class Bebida {
+public abstract class Bebida {
 
     public abstract List<String> obterIngredientes();
 
