@@ -17,11 +17,11 @@ public class ImpressaoFactory {
             }
         } else if (tamanhoImpressao == TamanhoImpressao.A3) {
             if (ehFrenteVerso){
-                valorColoridasFrenteVerso = 0.25;
-                valorPretoBrancoFrenteVerso = 0.15;
+                valorColoridasFrenteVerso = 0.15;
+                valorPretoBrancoFrenteVerso = 0.25;
             } else {
-                valorColoridasFrenteApenas = 0.20;
-                valorPretoBrancoFrenteApenas = 0.30;
+                valorColoridasFrenteApenas = 0.30;
+                valorPretoBrancoFrenteApenas = 0.20;
             }
         } else if (tamanhoImpressao == TamanhoImpressao.A4) {
             if (ehFrenteVerso){
