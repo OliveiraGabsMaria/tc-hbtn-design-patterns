@@ -12,13 +12,13 @@ public class ImpressaoFactory {
                 valorColoridasFrenteVerso = 0.28;
                 valorPretoBrancoFrenteVerso = 0.18;
             } else {
-                valorColoridasFrenteApenas = 0.22;
-                valorPretoBrancoFrenteApenas = 0.32;
+                valorColoridasFrenteApenas = 0.32;
+                valorPretoBrancoFrenteApenas = 0.22;
             }
         } else if (tamanhoImpressao == TamanhoImpressao.A3) {
             if (ehFrenteVerso){
-                valorColoridasFrenteVerso = 0.15;
-                valorPretoBrancoFrenteVerso = 0.25;
+                valorColoridasFrenteVerso = 0.25;
+                valorPretoBrancoFrenteVerso = 0.15;
             } else {
                 valorColoridasFrenteApenas = 0.30;
                 valorPretoBrancoFrenteApenas = 0.20;
