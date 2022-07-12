@@ -1,0 +1,4 @@
+Arquitetura Hexagonal (Hexagonal Architecture) também conhecida por Port and Adapters (Portas e Adaptadores) é um Design Paterrn cujo conceito foi proposto por Alistair Cockburn, em meados dos anos 90, sendo utilizada como arquitetura de projeto para desolvimento de apis. Entre seus beneficios e recursos está: Falicidade para testes, baixo acoplamento;
+Quando citamos Arquitetura Hexagonal e Clean Architecture suas diferenças são: A primeira tem como objetivo privar as regras de negócio do meio externo enquanto a arquitetura clean tem como objetivo promover a implementação que favoreça a reusabilidade do código, coesão, testabilidade e independencia da tecnologia.
+De acordo com os artigos de estudo, minha opinião é que sim, se pode aplicar. Mas em casos aonde a aplicação é pequena, a utilização pode ser dispensavel.
+
