@@ -1,4 +1,4 @@
-public class AudioPlayer  implements MediaPlayer {
+public class AudioPlayer implements MediaPlayer {
 
     @Override
     public void reproduzir(TipoMedia tipoMedia, String nomeArquivo) {
